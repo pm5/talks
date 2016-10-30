@@ -1,0 +1,427 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Lowiki.org 期末審查</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+          <section>
+            <h1>維基地方誌平台<br>期末審查報告</h1>
+          </section>
+          <section>
+            <p>以下依成果報告書中，各工作項目順序，報告計劃成果：</p>
+            <ol style="list-style-type: decimal">
+              <li>建置 LocalWiki 維基地方誌系統</li>
+              <li>整合開放資料與開放地理圖資</li>
+              <li>整合地圖網路服務</li>
+              <li>網頁模板功能</li>
+              <li>資料轉換工具</li>
+              <li>可運行於雲端或虛擬環境</li>
+              <li>行動裝置適用網站設計</li>
+              <li>教育訓練</li>
+              <li>推廣活動</li>
+              <li>壓力測試</li>
+              <li>開發文件</li>
+            </ol>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1>一、建置 LocalWiki<br>維基地方誌系統</h1>
+          </section>
+          <section>
+            <h2>維基地方誌網站已建置於 <a href="https://lowiki.tw/">https://lowiki.tw/</a></h2>
+          </section>
+          <section
+            data-background="/images/desktop-frontpage.jpg" data-background-size="contain">
+            &nbsp;
+          </section>
+          <section
+            data-background="/images/lowiki.jpg" data-background-size="contain">
+            &nbsp;
+          </section>
+          <section>
+            <h2>網站內容架構</h2>
+            <ol>
+              <li>以「村里」行政層級為<b>地區</b>。</li>
+              <li>各地區包含多個<b>頁面</b>。</li>
+              <li>各頁面包含該地點相關資料與<b>地圖</b>。</li>
+              <li>以<b>標籤</b>進行分類。</li>
+              <li>提供全文檢索功能。</li>
+              <li>預先建置全台灣所有村里與災防相關設施資料。</li>
+            </ol>
+          </section>
+          <section
+            data-background="/images/desktop-region.jpg" data-background-size="contain">
+            &nbsp;
+          </section>
+          <section
+            data-background="/images/desktop-region1.jpg" data-background-size="contain">
+            &nbsp;
+          </section>
+          <section
+            data-background="/images/desktop-page.jpg" data-background-size="contain">
+            &nbsp;
+          </section>
+          <section
+            data-background="/images/desktop-edit-tag.jpg" data-background-size="contain">
+            &nbsp;
+          </section>
+          <section
+            data-background="/images/desktop-search2.jpg" data-background-size="contain">
+            &nbsp;
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1>二、整合開放資料與開放地理圖資</h1>
+          </section>
+          <section>
+            <p>整合開放資料，應俱備以下功能：</p>
+            <ul>
+              <li>導入 OpenStreetMap 地理圖資</li>
+              <li>引導防災地方誌使用者編修 OpenStreetMap</li>
+            </ul>
+          </section>
+          <section>
+            <h2>導入 OpenStreetMap 地理圖資</h2>
+            <p>查詢 OpenStreetMap 所得的地理圖資，可直接選用以導入 LocalWiki 資料庫中。</p>
+          </section>
+          <section data-background="/images/od-search.jpg" data-background-size="contain">&nbsp;</section>
+          <section data-background="/images/od-import.jpg" data-background-size="contain">&nbsp;</section>
+          <section>
+            <h2>引導防災地方誌使用者編修 OpenStreetMap</h2>
+            <p>如果查詢 OpenStreetMap 無可用之結果，網站會提示使用者，並提供連結至 OpenStreetMap 編修其資料。</p>
+          </section>
+          <section data-background="/images/od-notfound.jpg" data-background-size="contain">&nbsp;</section>
+          <section data-background="/images/od-redirect.jpg" data-background-size="contain">&nbsp;</section>
+        </section>
+        <section>
+          <section>
+            <h1>三、整合地圖網路服務</h1>
+          </section>
+          <section>
+            <p>防災地方誌網站應提供網路地圖，並應俱備以下功能：</p>
+            <ul>
+              <li>地圖可以捲動、縮放、定位。</li>
+              <li>可選擇 WMS、WFS 等協定之底圖圖層。</li>
+              <li>可在地圖上添加、編修、刪除幾何物件。</li>
+              <li>可以用地名或地址搜尋 OpenStreetMap 相關圖資匯入編輯器。</li>
+            </ul>
+          </section>
+
+          <section data-background="/images/osm-original.jpg" data-background-size="contain">
+            &nbsp;
+
+          </section>
+          <section data-background="/images/osm-original1.jpg" data-background-size="contain">
+            &nbsp;
+
+          </section>
+          <section data-background="/images/osm-layers.jpg" data-background-size="contain">
+            &nbsp;
+
+          </section>
+          <section data-background="/images/osm-edit.jpg" data-background-size="contain">
+            &nbsp;
+
+          </section>
+          <section data-background="/images/osm-search.jpg" data-background-size="contain">&nbsp;</section>
+
+        </section>
+
+        <section>
+          <section>
+            <h1>四、網頁模板功能</h1>
+          </section>
+
+          <section>
+            <p>網站應提供以下模板功能：</p>
+            <ul>
+              <li>每個地區都有一組預設的模板可以選用。</li>
+              <li>模板中將提供各類型標的物的屬性表格，供一般使用者編輯時填寫，簡化建置文件的流程。</li>
+              <li>模板中能填寫的內容，以文字為限。</li>
+              <li>一般使用者可以自行編修模板，也可以增加新的模板。</li>
+              <li>地區管理者可以鎖定特定模板，不提供一般使用者自行編修。</li>
+            </ul>
+          </section>
+
+          <section>
+            <ul>
+              <li>一般使用者編輯文件時，可以在編輯器中插入該地區的模板並填寫變數資料。</li>
+              <li>LocalWiki 系統在顯示頁面時，將自動代入模板進行編排。</li>
+              <li>LocalWiki 標籤可設定相關的模板。一般使用者編輯或新建文件時，可選擇要加入的標籤分類。系統會自動將該標籤相關的模板，插入文件開頭，供編輯運用。</li>
+            </ul>
+          </section>
+
+
+          <section data-background="/images/template-default.jpg" data-background-size="contain">
+            &nbsp;
+
+          </section>
+          <section data-background="/images/template-edit.jpg" data-background-size="contain">
+            &nbsp;
+
+          </section>
+          <section data-background="/images/template-insert.jpg" data-background-size="contain">
+            &nbsp;
+
+          </section>
+          <section data-background="/images/template-display.jpg" data-background-size="contain">
+            &nbsp;
+
+          </section>
+          <section data-background="/images/template-lock.jpg" data-background-size="contain">
+            &nbsp;
+
+          </section>
+          <section data-background="/images/template-tags.jpg" data-background-size="contain">&nbsp;</section>
+        </section>
+
+        <section>
+          <section>
+            <h1>五、資料轉換工具</h1>
+          </section>
+
+          <section>
+            <p>應提供功能將頁面資料批次轉檔為可流通機器讀取格式。</p>
+          </section>
+
+          <section>
+            <h2>Public API</h2>
+            <p>API 存取路徑為 <a href="https://lowiki.tw/api/v4/">https://lowiki.tw/api/v4/</a> 。下圖為所有 API 介接端點的列表與文件。</p>
+          </section>
+
+          <section data-background="/images/api-all.jpg" data-background-size="contain">&nbsp;</section>
+
+        </section>
+        <section>
+          <section>
+            <h1>六、可運行於雲端或虛擬環境</h1>
+          </section>
+
+          <section>
+            <p>應於 Linode 雲端主機供應商建置 4 部雲端主機維運服務。</p>
+          </section>
+          <section data-background="/images/linode.jpg" data-background-size="contain">
+            &nbsp;
+
+          </section>
+          <section>
+
+            <table style="width:100%;">
+              <colgroup>
+                <col width="12%" />
+                <col width="16%" />
+                <col width="6%" />
+                <col width="6%" />
+              </colgroup>
+              <thead>
+                <tr class="header">
+                  <th>名稱</th>
+                  <th>功能</th>
+                  <th>規格</th>
+                  <th>hostname/IP</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="odd">
+                  <td>資料庫</td>
+                  <td>PostgreSQL 資料庫</td>
+                  <td>Linode 4GB</td>
+                  <td>db0 139.162.50.170</td>
+                </tr>
+                <tr class="even">
+                  <td>資料庫快取</td>
+                  <td>Redis Memcached Munin Solr</td>
+                  <td>Linode 2GB</td>
+                  <td>cache0 139.162.6.36</td>
+                </tr>
+                <tr class="odd">
+                  <td>應用程式</td>
+                  <td>LocalWiki 主程式 Apache</td>
+                  <td>Linode 4GB</td>
+                  <td>web0 139.162.15.44</td>
+                </tr>
+                <tr class="even">
+                  <td>網頁快取</td>
+                  <td>Varnish</td>
+                  <td>Linode 2GB</td>
+                  <td>bal0 139.162.3.155</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+
+        </section>
+        <section>
+          <section>
+            <h1>七、行動裝置適用網站設計</h1>
+          </section>
+
+          <section>
+            <p>網站應俱備「同一個網站/網址，提供不同裝置寬度於瀏覽時之最佳化設計」。</p>
+          </section>
+          <section data-background="/images/rwd-frontpage.jpg" data-background-size="contain">&nbsp;</section>
+
+          <section
+                                                               data-background="/images/rwd-region.jpg" data-background-size="contain">
+            &nbsp;
+          </section>
+          <section
+                                                                                                        data-background="/images/rwd-region1.jpg" data-background-size="contain">
+            &nbsp;
+          </section>
+          <section
+                                                                                                                                                  data-background="/images/rwd-page.jpg" data-background-size="contain">
+            &nbsp;
+          </section>
+          <section
+                                                                                                                                                                                         data-background="/images/rwd-edit-tag.jpg" data-background-size="contain">
+            &nbsp;
+          </section>
+          <section
+                                                                                                                                                                                                                                    data-background="/images/rwd-search2.jpg" data-background-size="contain">
+            &nbsp;
+          </section>
+
+
+        </section>
+        <section>
+          <section>
+            <h1>八、教育訓練</h1>
+          </section>
+
+          <section>
+            <p>應辦理以下教育訓練活動：</p>
+            <ul>
+              <li>平台架構教育訓練 1 場 3 小時（已於 10 月 3 日下午舉辦）</li>
+              <li>程式邏輯教育訓練 1 場 3 小時（已於 10 月 11 日下午舉辦）</li>
+            </ul>
+          </section>
+
+
+        </section>
+        <section>
+          <section>
+            <h1>九、推廣活動</h1>
+          </section>
+
+          <section>
+            <p>應辦理以下推廣活動：</p>
+            <ul>
+              <li>社區活動 1 場 3 小時</li>
+              <li>演講 2 場各 30 分鐘</li>
+            </ul>
+          </section>
+          <section>
+            <h2>社區活動</h2>
+            <p>與碧山里的社區防災推廣工作坊合辦，活動流程如下：</p>
+            <ul>
+              <li>里長社區簡介</li>
+              <li>NCDR 防災簡介</li>
+              <li>防災地方誌簡介</li>
+              <li>社區週邊尋訪</li>
+              <li>編輯及上傳照片</li>
+              <li>總結</li>
+            </ul>
+          </section>
+          <section>
+            <h2>演講</h2>
+            <p>本計劃共於 2 場年會發表演講，分別為：</p>
+            <ul>
+              <li>g0v Summit 2016 零時政府高峰會</li>
+              <li>State of the Map Asia 2016 開放街圖亞洲年會</li>
+            </ul>
+          </section>
+          <section data-background="/images/g0v-summit.jpg" data-background-size="contain">
+            &nbsp;
+
+          </section>
+          <section data-background="/images/sotm-asia.jpg" data-background-size="contain">
+            &nbsp;
+
+          </section>
+          <section data-background="/images/sotm-asia1.jpg" data-background-size="contain">&nbsp;</section>
+
+        </section>
+        <section>
+          <section>
+            <h1>十、壓力測試</h1>
+          </section>
+
+          <section>
+            <ul>
+              <li>使用 Locust 網站效能測試工具，透過 HTTP 與 HTTPS 通訊協定。</li>
+              <li>設定為 100 位使用者同時發送請求。</li>
+              <li>共測試 5 組 URL 網址，包含平台功能：開啟區域首頁、查詢地圖、查詢標籤、編輯頁面、編輯區域首頁。</li>
+              <li>持續測試到對每一組 URL 網址發送超過 100 個請求。</li>
+            </ul>
+          </section>
+
+          <section data-background="/images/locust.jpg" data-background-size="contain">&nbsp;</section>
+
+        </section>
+        <section>
+          <section>
+            <h1>十一、開發文件</h1>
+          </section>
+
+          <section>
+            <p>應提交開發文件：</p>
+            <ul>
+              <li>成果報告書</li>
+              <li>平台架構說明書</li>
+              <li>教育訓練教材</li>
+              <li>平台操作手冊</li>
+              <li>壓力測試結果</li>
+            </ul>
+          </section>
+
+        </section>
+        <section>
+          <h1>感謝</h1>
+        </section>
+      </div>
+    </div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

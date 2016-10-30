@@ -1,0 +1,60 @@
+
+(Lowiki.org)
+
+Today I'm going to talk about Lowiki project.  This is a joint project of Deng Dongpo, National Science and Technology Center for Disaster Reduction of Taiwan, Cheng Kai-Yuan, and myself, and with help of many others.
+
+(Many others)
+
+So I'll start with a bit of my own thought about Open Data.
+
+(Open Data in Taiwan)
+
+In Taiwan, for the last few years Open Data movement has pushed the government to release a lot of data to the public.  We tried to release the data in the ways that are easily accessible by the public, machine readable, and with an open license, so that the facilitate further reuse.  But to me, somehow I still feel we're missing something here.
+
+That's why when Dongpo invited my to join his Lowiki project, which aims to build a wiki platform for disaster relief information, I thought, yeah, that seems to be the part I think that we're missing, so a wiki platform here could be quite useful.
+
+(?)
+
+So what exactly are we missing here?  Take disaster relief information for example.  From my point of view, which is from a citizen, a very common people, definitely not an expert in disaster and disaster relief, disaster is something that directly affects me, but I would have a hard time dissecting and intepreting those vital information from government released data, even if those data are open data.
+
+Of course, once the data is open, people could build all kinds of application and mashup with them.  As a developer, I can help people understanding the risks they're facing by building data visualizations, maps, charts to show for example dangerous area, locations of facilities and safe house, etc.  But as a developer I'm also aware that something in those efforts can be achived more directly in other medium.
+
+(Story)
+
+And that medium is story.  A story that looks back at the past, summarizes the present, and forcast the future, sometimes tell us about the environment more directly.  These narratives exist and are shared among experts or the local community.  And when concerning disaster prevention and resilience, building a common narrative would really help raising awareness of future disasters.
+
+And a wiki, which is a collaborative storytelling platform, would be very useful to build these narratives.
+
+(Collaborative storytelling)
+
+This project, we named it Lowiki, chose localwiki to build the platform.  Localwiki is a wiki system that for our purpose has two very good features.  One is that localwiki was built to collect common knowledge in a community instead of for the humanity as Wikipedia.  Localwiki is designed with "region" in mind.  Each region is a community, and the pages under the region are all about this community that this group of people care about.  The other feature is that Localwiki pages by default is attached with geographic information.  Since community common knowledge very often involve a place or an area, it is natural to create these pages with a map that shows the place or area.  Localwiki simply comes with that feature built in.
+
+(Gov Data -> Wiki)
+
+So for the last year we've been working with NCDR to build this wiki platform.  NCDR has a lot of data about disaster relief work.  We helped NCDR to release these data through the Lowiki web site.  As you can see.  I'm sorry the page is all in Chinese, because a web site for community common knowledge has to be built with the language of the community in priority.  But we welcome others to try out the service and start their own community sharing disaster relief information.
+
+(Gov Data -> Wiki <- Citizen)
+
+So this is the first step in our platform.  We tried to improve that tradition way of releasing government Open Data by coupling it with a storytelling platform.  Currently there's been some dataset published in this way.  We are also working with a few actual local communities to get them start editing these information.  We hope that through this collaborative way of sharing information.
+
+(Gov Data -> OSM)
+
+But this is quite a manual way of doing this.  We are also working our way back to the data itself, so that future collaborations can be more automated and fluent.  We are working with NCDR and the OSM community in Taiwan to publish the Open Data into OpenStreetMap.  Then we can pull those data into Lowiki from OpenStreetMap.  That way, those data helps not only Lowiki project but also other users of OpenStreetMap.
+
+One of the problems that we've seen is that, in Taiwan and Philippines at least, it's very common that we use elementary school buildings as shelters when during disasters.  So
+
+(Gov Data -> OSM <- Citizen)
+
+Localwiki already has some integration features with OpenStreetMap.  Currently if a user wants to create a map for some wiki page to identify a location, she can do a text search directly in Localwiki map editor, and the service will look up the text name through Overpass API.  If a match is found, the geometry of the matching object in OSM database is directly pulled into Localwiki map editor, so that users don't have to do the drawing.
+
+(Redirect Citizen to OSM)
+
+But if there was no match, user will have to draw it herself in the Localwiki map editor.  And that data created by the user will be stored in the Localwiki database, which means other OpenStreetMap users cannot access it in OpenStreetMap database.
+
+(Posting notes on OSM)
+
+We are also considering something that we've tried out is some projects in the past, which is to allow users of Lowiki to post a note
+
+(Lowiki.org)
+
+So the wiki web site has just gone publicly online this month.  We look forward to have some more progress to report next year.  That's all I have for now.  Thank you for you time.
