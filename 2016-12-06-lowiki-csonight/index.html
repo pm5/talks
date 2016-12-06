@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+      <div class="slides">
+        <section>
+          <section>
+            <h1 id="lowiki.org">Lowiki.org</h1>
+            <p>
+            LocalWiki + OpenStreetMap for collaborative storytelling<br>
+            in disaster relief
+            </p>
+           </section>
+         </section>
+         <section>
+           <section>
+             <h1 id="story">Storytelling</h1>
+           </section>
+           <section>
+             <h2 id="why">Why?</h2>
+           </section>
+           <section>
+             <div class="figure">
+               <img src="img/thin-lane.jpg" class="plain" alt="" />
+             </div>
+             <p>What can we see in this picture?</p>
+           </section>
+           <section>
+             <div class="figure">
+               <img src="img/deep-water.jpg" class="plain" alt="" />
+             </div>
+             <p>... and this?</p>
+           </section>
+           <section>
+             <div class="figure">
+               <img src="img/sewer.jpg" class="plain" alt="" />
+             </div>
+             <p>... how about this?</p>
+           </section>
+           <section>
+             <h2>Context</h2>
+           </section>
+         </section>
+         <section>
+           <section>
+<h1 id="collaborative-storytelling">Collaborative storytelling</h1>
+           </section>
+           <section data-background="img/localwiki1.jpg" data-background-size="auto 88%"></section>
+           <section data-background="img/localwiki2.jpg" data-background-size="auto 88%"></section>
+           <section>
+             <h2>LocalWiki</h2>
+             <p>
+               <a href="https://localwiki.org/">https://localwiki.org/</a>
+             </p>
+             <ol>
+               <li>Designed to share local knowledge.</li>
+               <li>Some built-in geographic information features.</li>
+             </ol>
+           </section>
+           <section data-background="img/bonn.jpg" data-background-size="auto 88%"></section>
+           <section data-background="img/bonn-map.jpg" data-background-size="auto 88%"></section>
+           <section data-background="img/lowiki.jpg" data-background-size="auto 88%"></section>
+           <section data-background="img/community1.jpg" data-background-size="auto 88%"></section>
+           <section data-background="img/community2.jpg" data-background-size="auto 88%"></section>
+           <section data-background="img/community3.jpg" data-background-size="auto 88%"></section>
+           <section>
+             <h2>Lowiki</h2>
+             <p><a href="https://lowiki.org/">https://lowiki.org/</a></p>
+             <ol>
+               <li>Import/publish official (government) data on it.</li>
+               <li>Help/encourage local inhabitants to update it.</li>
+             </ol>
+           </section>
+         </section>
+         <section>
+           <section>
+<h2 id="official-data-wiki">Official Data ⟹  Lowiki</h2>
+           </section>
+           <section>
+             <ul>
+               <li>Pre-build regions from administration district data.</li>
+               <li>Convert and import official data about shelters and facilities.</li>
+               <li>Overlay information on the maps.</li>
+             </ul>
+           </section>
+           <section data-background="img/region.jpg" data-background-size="auto 88%"></section>
+           <section data-background="img/lowiki-map.jpg" data-background-size="auto 88%"></section>
+         </section>
+         <section>
+           <section>
+             <h2 id="wiki-non-official-data">Lowiki ⟸  Non-official Data</h2>
+           </section>
+           <section>
+             <ul>
+               <li>Working with local communities.</li>
+             </ul>
+           </section>
+         </section>
+         <section>
+           <section>
+             <h1>Plans</h1>
+           </section>
+         </section>
+         <section>
+           <section>
+             <h1 id="lowiki.org-1">Lowiki.org</h1>
+             <div class="figure">
+               <img src="img/logo@2x.png" class="plain" alt="" />
+             </div>
+             <p><a href="https://lowiki.org/">https://lowiki.org/</a></p>
+           </section>
+           <section>
+             <h2>Helps and contributors:</h2>
+             <ul>
+               <li>Dongpo Deng @dongpo</li>
+               <li>Pomin Wu @pm5</li>
+               <li>Cheng Kai-Yuan @superbil</li>
+               <li>National Science and Technology Center for Disaster Reduction</li>
+               <li>LocalWiki.org</li>
+               <li>Many others…</li>
+             </ul>
+           </section>
+         </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
