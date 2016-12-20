@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Group, Lie group, and E8</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+          <section>
+            <h1>Group, Lie group, and E8</h1>
+            <h3>數學小聚 #0 / TW Bioart</h3>
+            <p>
+              <small>Created by <a href="https://github.com/pm5/">pm5</a> / <a href="http://twitter.com/pm5">@pm5</a></small>
+            </p>
+          </section>
+
+          <section>
+            <h2>參考資料</h2>
+            <ul>
+              <li><a href="http://www.physics.oregonstate.edu/~stetza/">Albert W. Stetz</a>, <em><a href="http://www.physics.oregonstate.edu/~stetza/Lie.pdf">Lie Groups in Modern Physics</a></em>. 2011.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>數學小聚</h2>
+            <p>
+              <a href="https://www.facebook.com/groups/twm9s/">https://www.facebook.com/groups/twm9s/</a>
+            </p>
+          </section>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>群 Group</h2>
+						<br>
+						<a href="#" class="navigate-down">
+							<img width="238" height="238" data-src="image/The_Swarm_novel_cover.jpg" alt="The Swarm">
+						</a>
+            <br>
+            <small><a href="https://zh.wikipedia.org/wiki/File:The_Swarm_novel_cover.jpg">https://zh.wikipedia.org/wiki/File:The_Swarm_novel_cover.jpg</a></small>
+					</section>
+					<section>
+						<h2>數學上的講法</h2>
+						<p>
+              一個集合 <code>G</code>，加一個運算 <code>*</code>，而且
+            </p>
+            <ol>
+              <li><code>a, b</code> in <code>G</code>, then <code>a * b</code> in <code>G</code>.</li>
+              <li><code>a * (b * c) = (a * b) * c</code> for all <code>a, b, c</code> in <code>G</code>.</li>
+              <li>There is <code>e</code> in <code>G</code> such that <code>a * e = e * a = a</code> for all <code>a</code> in <code>G</code>.</li>
+              <li>For all <code>a</code> in <code>G</code> there is <code>a<sup>-1</sup></code> in <code>G</code> such that <code>a * a<sup>-1</sup> = a<sup>-1</sup> * a = e</code>.</li>
+            </ol>
+					</section>
+					<section>
+						<h2>數學上的例子</h2>
+            <ul>
+              <li>整數 <code>Z</code>，與加法 <code>+</code></li>
+              <li>有理數不含零 <code>Q<sup>&times;</sup></code>，與乘法 <code>&times;</code></li>
+            </ul>
+            <p><code>e</code>（<code>(Z, +)</code>的 0、<code>(Q<sup>&times;</sup>, &times;)</code> 的 1）稱作單位元素。</p>
+					</section>
+					<section>
+						<h2>可以想成是</h2>
+            <p><code>&uarr;&uarr;&darr;&darr;&larr;&rarr;&larr;&rarr;abba</code></p>
+						<br>
+            <img height="238" data-src="image/Famicom-Console-Set.png" alt="NES Console">
+            <br>
+            <small><a href="https://en.wikipedia.org/wiki/File:Famicom-Console-Set.png">https://en.wikipedia.org/wiki/File:Famicom-Console-Set.png</a></small>
+					</section>
+          <section>
+						<h2>可以想成是</h2>
+            <p>旋轉</p>
+            <br>
+            <img height="278" data-src="image/Tetris.png" alt="Tetris">
+            <br>
+            <small><a href="https://github.com/vim-scripts/TeTrIs.vim">https://github.com/vim-scripts/TeTrIs.vim</a></small>
+          </section>
+          <section>
+            <h2>可以想成是</h2>
+            <p>多維度的旋轉</p>
+            <br>
+            <img height="278" data-src="image/Rubik's_cube.svg.png" alt="Rubik's cube">
+            <br>
+            <small><a href="https://en.wikipedia.org/wiki/File:Rubik's_cube.svg">https://en.wikipedia.org/wiki/File:Rubik's_cube.svg</a></small>
+          </section>
+          <section>
+            <h2>以上兩個旋轉都是有限的</h2>
+            <p>任天堂的例子，還有整數與有理數不含零的例子，<br>是可數無限。</p>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>不可數無限的群</h2>
+          </section>
+
+          <section>
+            <h2>數學上的例子</h2>
+            <ul>
+              <li>實數 <code>R</code>，與加法 <code>+</code></li>
+              <li>行列式不為零的矩陣 <code>M<sub>n</sub>(R)</code>，與矩陣乘法</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>旋轉</h2>
+            <img height="278" data-src="image/Rotating_Sphere.gif" alt="Rotating sphere">
+            <br>
+            <small><a href="https://en.wikipedia.org/wiki/File:Rotating_Sphere.gif">https://en.wikipedia.org/wiki/File:Rotating_Sphere.gif</a></small>
+          </section>
+
+          <section>
+            <h2>實數</h2>
+            <p>那有沒有辦法抓起來微分？</p>
+            <!-- 這裡我們都講無限可微 -->
+          </section>
+
+          <section>
+            <h2>函數</h2>
+            <p><code>f(x)=y</code></p>
+          </section>
+
+          <section>
+            <h2>參數化</h2>
+            <p><code>f(&alpha;)=&alpha;</code></p>
+          </section>
+
+          <section>
+            <h2>掌握不可數無限群的方法</h2>
+            <p>用可微分函數，把它參數化。</p>
+          </section>
+
+          <section>
+            <h2>何必自找麻煩？</h2>
+          </section>
+
+          <section>
+            <h2>方向、變化率</h2>
+            <img height="278" data-src="image/Rotating_Sphere.gif" alt="Rotating sphere">
+            <br>
+            <small><a href="https://en.wikipedia.org/wiki/File:Rotating_Sphere.gif">https://en.wikipedia.org/wiki/File:Rotating_Sphere.gif</a></small>
+          </section>
+
+          <section>
+            <h2>最簡單的 Lie group</h2>
+            <p>實數 <code>R</code>，與加法 <code>+</code><br>
+            用 <code>f(&alpha;)=&alpha;</code> 參數化<br>
+            <br>
+            <em>one-parameter Lie group</em>
+            </p>
+          </section>
+				</section>
+
+        <!-- isomorphism, homomorphism -->
+
+				<section>
+          <section>
+            <h2>李群 Lie group</h2>
+          </section>
+
+          <section>
+            <h2>數學上的講法</h2>
+            <p>
+              一個流形（manifold）<code>G</code>，同時是個群 <code>(G, *)</code>，而且
+            </p>
+            <ol>
+              <li><code>f(X, Y) = X * Y</code> 函數可微分</li>
+              <li><code>g(X) = X<sup>-1</sup></code> 函數可微分</li>
+            </ol>
+          </section>
+
+          <section>
+            <h2>流<del>行</del>形？</h2>
+          </section>
+
+          <section>
+            <h2>回想一下參數化的例子</h2>
+            <img height="278" data-src="image/Rotating_Sphere.gif" alt="Rotating sphere">
+          </section>
+
+          <section>
+            <h2>旋轉</h2>
+            <p>
+              就是用旋轉角度來表示啊，不然要幹嘛？
+            </p>
+          </section>
+
+          <section>
+            <h2>旋轉</h2>
+            <img height="378" data-src="image/360-turn.jpg" alt="What if I told you... to turn 360 degrees?">
+          </section>
+
+          <section>
+            <h2>參數化</h2>
+            <p>
+              所以我們只能顧好自己鄰近，不能跑太遠。
+            </p>
+          </section>
+
+          <section>
+            <h2>投影</h2>
+            <p>
+            每個鄰近可以用一套投影（projection）覆蓋。每套投影把一個鄰近參數化。<br>我們需要一組投影，才能覆蓋整個形狀。
+            </p>
+            <img height="338" data-src="image/Mercator_projection_SW.jpg" alt="Mercator projection">
+            <small><a href="https://en.wikipedia.org/wiki/File:Mercator_projection_SW.jpg">https://en.wikipedia.org/wiki/File:Mercator_projection_SW.jpg</a></small>
+          </section>
+
+          <section>
+            <h2>流<del>行</del>形？</h2>
+            <p>
+              基本上就是可以用一組投影覆蓋的形狀。<br>局部而言，與 <code>n</code> 維實數空間 <code>R<sup>n</sup></code> 「一樣」。
+            </p>
+            <p>
+              「一樣」的意思是，有反函數而且正反函數都可微分。
+            </p>
+          </section>
+
+          <section>
+            <h2>李群</h2>
+            <p>
+              基本上是一個「形狀」，同時又是個群。
+            </p>
+            <ul>
+              <li>圓圈（<code>1</code> 維球）<code>S<sup>1</sup></code>是李群</li>
+              <li>圓球（<code>2</code> 維球）<code>S<sup>2</sup></code><strong>不是</strong>李群</li>
+              <li>@%$&)@?（<code>3</code> 維球）<code>S<sup>3</sup></code><strong>是</strong>李群（因為<a href="http://www.wikiwand.com/en/Quaternion">四元數</a>）</li>
+              <li>旋轉（<code><a href="http://www.wikiwand.com/en/Orthogonal_group">SO(n)</a></code>）是李群</li>
+            </ul>
+          </section>
+
+				</section>
+
+				<section>
+          <section>
+            <h2>李代數 Lie algebra</h2>
+          </section>
+
+          <section>
+            <h3>實數 <code>n</code> 維李代數<br>Real Lie algebra of dimension <code>n</code></h3>
+            <p>
+            一個 <code>n</code> 實數向量空間 <code>L</code>（想成 <code>R<sup>n</sup></code>），<br>一個「交換子」（commutator） <code>[X, Y]</code>，而且
+            </p>
+            <ol>
+              <li><code>[X, Y]</code> in <code>L</code> for all <code>X, Y</code> in <code>L</code>.</li>
+              <li><code>[aX + bY, Z] = a[X, Z] + b[Y, Z]</code><br>for all <code>X, Y, Z</code> in <code>L</code>.</li>
+              <li><code>[X, Y] = -[Y, X]</code> for all <code>X, Y</code> in <code>L</code>.</li>
+              <li><code>[X,[Y,Z]] + [Y,[Z,X]] + [Z,[X,Y]] = 0</code><br>for all <code>X, Y, Z</code> in <code>L</code>.</li>
+            </ol>
+          </section>
+
+          <section>
+            <h3>李群和李代數的關係</h3>
+            <p>
+              為李群選擇一組參數化，透過李群在 <code>e</code> 附近的行為<br>（偏導數）可以計算出它的李代數。
+            </p>
+            <p>
+              從一個李代數出發，「基本上」可以重建出原本的李群。
+            </p>
+            <!-- 以下有些技術性，我不能確定我做了多少程度的簡化。 -->
+            <!-- isomorphism; 選擇不同的參數化方法，計算出來的李代數是同一個。 -->
+          </section>
+
+          <section>
+            <h2><code>e</code> 附近的行為</h2>
+            <p>
+              可以想成「原點附近的行為」可以決定整個群的行為。
+            </p>
+            <p>
+              因為群的結構可以把原點附近的行為<br>「複製」到所有局部。
+            </p>
+          </section>
+
+          <section>
+            <h2>對李代數的研究</h2>
+            <p>
+              大概是這樣：
+            </p>
+            <ol>
+              <li>計算出來的李代數，基本上是一個偏導函數構成的矩陣（回想一下微積分計算 Jacobian 的時候）</li>
+              <li>可以把所有李代數化約成一組不可約的李代數的「某種乘積」（可以想成整數可以因式分解）</li>
+              <li>不可約的李代數，可以計算出它們的矩陣特徵值（eigenvalue）</li>
+              <li>這些特徵值可以決定李代數的分類。這些值就是根系 root system</li>
+            </ol>
+          </section>
+				</section>
+
+        <section>
+          <section>
+            <h2>根系 Root system</h2>
+            <br>
+            <img width="238" height="238" data-src="image/E8Petrie.svg.png" alt="E8">
+            <br>
+            <small><a href="http://www.wikiwand.com/en/Root_system">http://www.wikiwand.com/en/Root_system</a></small>
+          </section>
+        </section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
