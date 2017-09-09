@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Automatic Import of Taiwanese Open Government Data into OSM</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+    <style>
+    .reveal h1 {
+      font-size: 1.8em;
+    }
+    .reveal h1,
+    .reveal h2,
+    .reveal h3,
+    .reveal h4,
+    .reveal h5,
+    .reveal h6 {
+      text-transform: none;
+    }
+    .en {
+      font-size: 0.5em;
+      color: #999;
+    }
+    </style>
+	</head>
+	<body>
+		<div class="reveal">
+      <div class="slides">
+        <section>
+          <section>
+            <h1 id="台灣政府開放資料自動化整合進-openstreetmap-的進展">台灣政府開放資料自動化整合進 OpenStreetMap 的進展</h1>
+          </section>
+          <section>
+            <h2 id="關於我-about-me">關於我</h2>
+            <p>吳柏旻 Pomin Wu <span class="citation">@pm5</span></p>
+            <p>Mapper since 2012</p>
+            <ul>
+              <li>WaterMap</li>
+              <li>LocalWiki / Lowiki.org</li>
+            </ul>
+          </section>
+          <section>
+            <h2 id="兩個部份-a-three-part-talk">三個部份</h2>
+            <ol style="list-style-type: decimal">
+              <li>g0v 公民科技獎助金提案</li>
+              <li>tasks.lowiki.org</li>
+              <li>其它問題</li>
+            </ol>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1 id="g0v-公民科技獎助金提案-my-g0v-grants-proposal">g0v 公民科技獎助金提案</h1>
+            <p><a href="https://grants.g0v.tw/">https://grants.g0v.tw/</a></p>
+          </section>
+          <section data-background-image="images/g0v-grants.png.cropped.png">
+          </section>
+          <section>
+            <h2 id="把政府開放資料整合進-osm-importing-data-to-osm">把政府開放資料整合進 OSM</h2>
+          </section>
+          <section>
+            <h2 id="問題一-problem-1">問題一</h2>
+            <p>資料對比</p>
+            <ul>
+              <li>要人工對比資料</li>
+              <li>朝陽科技大學的案例</li>
+            </ul>
+          </section>
+          <section>
+            <h2 id="問題一-problem-1">問題一</h2>
+            <p>資料對比</p>
+            <ul>
+            <ul>
+              <li>耗時間，而且不容易掌控進度。</li>
+              <li>需要少數人特別花心力。</li>
+              <li>做過一次大概不會想再做第二次（第三次、第四次⋯⋯）</li>
+            </ul>
+          </section>
+          <section>
+            <h2 id="問題二-problem-2">問題二</h2>
+            <p>資料合併</p>
+            <ul>
+              <li>如果 OSM 上面已經有這筆資料，把兩筆資料合併起來要多花一點工夫。</li>
+              <li>做過一次大概不會想再做第二次（第三次、第四次⋯⋯）</li>
+              <li>所以不容易與政府資料保持同步。</li>
+            </ul>
+          </section>
+          <section>
+            <h2 id="我的提案-my-proposal">我的提案</h2>
+            <p>我的提案是接下來要說明的這個工具。</p>
+            <p>不過還在開發中，目前只有測試版。</p>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1 id="tasks.lowiki.org">tasks.lowiki.org</h1>
+            <p>給 OSM Tasking Manager 加一個 Map data 的功能。</p>
+          </section>
+          <section data-background-image="images/osmtm-project.png.cropped.png">
+          </section>
+          <section data-background-image="images/osmtm-task.png.cropped.png" />
+
+          </section>
+          <section data-background-image="images/id-data-layer.png.cropped.png" />
+
+          </section>
+          <section data-background-image="images/id-new-feature.png.cropped.png" />
+          </section>
+          <section data-background-image="images/id-merge-feature.png.cropped.png" />
+          </section>
+          <section data-background-image="images/osmtm-task.png.cropped.png" />
+          </section>
+          <section data-background-image="images/osmtm-project.png.cropped.png" />
+
+          </section>
+          <section data-background-image="images/osmtm-task.png.cropped.png" />
+          </section>
+          <section data-background-image="images/josm-data-layer.png.cropped.png" />
+          </section>
+          <section data-background-image="images/josm-osm-data.png.cropped.png" />
+          </section>
+          <section data-background-image="images/josm-gov-data.png.cropped.png" />
+          </section>
+          <section data-background-image="images/osmtm-done.png.cropped.png" />
+          </section>
+          <section>
+            <h2 id="清楚的工作流程-well-defined-work-flow">清楚的工作流程</h2>
+            <ul>
+              <li>小塊的工作</li>
+              <li>可見的進程</li>
+              <li>清楚的目標</li>
+              <li>規模化</li>
+            </ul>
+            <p>這些都是 Tasking Manager 的優點<br/>（感謝 HOT Team）</p>
+          </section>
+          <section>
+            <h2 id="資料更新的時候-new-data-coming-in">資料更新的時候</h2>
+            <ul>
+              <li>如果工作項目的資料沒有變，它的狀態也維持不變。</li>
+              <li>如果工作項目的資料更新了，它的狀態會重置。</li>
+              <li><p>只需要挑出資料有更新的工作項目來處理。</p></li>
+            </ul>
+          </section>
+          <section data-background-image="images/osmtm-project.png.cropped.png">
+          </section>
+          <section>
+            <h2 id="自動化整合-automated-import">自動化整合</h2>
+            <ul>
+              <li>我們可以開始把政府開放資料轉檔，定期導入 Tasking Managerv</li>
+              <li>Mapper 只要偶爾來看一下有沒有新資料進來，需不需要編輯。</li>
+              <li>Import 可以變成隨時持續進行的工作。</li>
+            </ul>
+          </section>
+          <section>
+            <h2 id="自動化整合-automated-import">自動化整合</h2>
+            <ul>
+              <li>但還是會有很多問題。</li>
+              <li>以下我會說明其中一部份。</li>
+            </ul>
+          </section>
+          <section>
+            <h2 id="tasks.lowiki.org-1">tasks.lowiki.org</h2>
+            <ul>
+              <li><p>開發中</p></li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>其它問題</h2>
+          </section>
+          <section>
+            <h3>Geocoding 地址轉換經緯度</h3>
+            <ul>
+              <li>不是有 TGOS 嗎？</li>
+              <li>不是有 Google 嗎？</li>
+              <li>政府自己可能也需要。</li>
+              <li>台灣政府開放資料裡其實也有不少地址。</li>
+            </ul>
+          </section>
+          <section>
+            <h3>資料本身可能不適合 GIS</h3>
+          </section>
+          <section data-background-image="images/josm-gov-data.png.cropped.png" />
+          </section>
+          <section>
+            <p>「飲水台數 5」</p>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1>謝謝</h1>
+            <p>投影片 <a href="https://pm5.github.io/talks">pm5.github.io/talks</a></p>
+          </section>
+        </section>
+      </div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+        transition: 'fade',
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
