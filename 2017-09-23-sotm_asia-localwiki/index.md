@@ -8,7 +8,10 @@ theme: sudodoki/reveal-cleaver-theme
 
 --
 
-# ???
+# Location-based storytelling with OSM & LocalWiki
+
+--
+
 ## How we adapt LocalWiki and OSM tools for our work
 
 --
@@ -133,19 +136,7 @@ I'll talk about how we (Lowiki) uses **tags**, **maps**, and **templates**.
 
 --
 
-![](images/lowiki-mapask_c.png)
-
---
-
-XXX
-
-![](images/lowiki-mapedit_c.png)
-
---
-
-XXX
-
-![](images/lowiki-wms_c.png)
+![](images/lowiki-mapview_c.png)
 
 --
 
@@ -331,22 +322,8 @@ LocalWiki ⇒ OSM Note ⇒ OSM
 
 --
 
-![](images/watermap_c.png)
-
---
-
-![](images/watermap-form_c.png)
-
---
-
 ![](images/watermap-note_c.png)
 
 --
 
 ![](images/watermap-issue_c.png)
-
---
-
-### Apply to other domains
-
-* localwiki.tw (temporarily suspended)
