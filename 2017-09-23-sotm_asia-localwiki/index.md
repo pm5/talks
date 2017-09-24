@@ -52,19 +52,19 @@ In other word, we use crowdsourcing process to build collaborations between **go
 
 --
 
-![](images/lowiki-page0_c.png)
+![](images/lowiki-page0_c.jpg)
 
 --
 
-![](images/lowiki-page1_c.png)
+![](images/lowiki-page1_c.jpg)
 
 --
 
-![](images/lowiki-page2_c.png)
+![](images/lowiki-page2_c.jpg)
 
 --
 
-![](images/lowiki-page3_c.png)
+![](images/lowiki-page3_c.jpg)
 
 --
 
@@ -92,11 +92,11 @@ In order to achieve this with a relatively small team, we adapted several open s
 
 --
 
-![](images/localwiki_c.png)
+![](images/localwiki_c.jpg)
 
 --
 
-![](images/localwiki-region0_c.png)
+![](images/localwiki-region0_c.jpg)
 
 --
 
@@ -125,7 +125,7 @@ I'll talk about how we (Lowiki) uses **tags**, **maps**, and **templates**.
 
 --
 
-![](images/lowiki-tagviewmap_c.png)
+![](images/lowiki-tagviewmap_c.jpg)
 
 --
 
@@ -136,19 +136,19 @@ I'll talk about how we (Lowiki) uses **tags**, **maps**, and **templates**.
 
 --
 
-![](images/lowiki-mapview_c.png)
+![](images/lowiki-mapview_c.jpg)
 
 --
 
-![](images/lowiki-map_c.png)
+![](images/lowiki-map_c.jpg)
 
 --
 
-![](images/lowiki-mapwms0_c.png)
+![](images/lowiki-mapwms0_c.jpg)
 
 --
 
-![](images/lowiki-mapwms1_c.png)
+![](images/lowiki-mapwms1_c.jpg)
 
 --
 
@@ -161,15 +161,15 @@ I'll talk about how we (Lowiki) uses **tags**, **maps**, and **templates**.
 
 --
 
-![](images/lowiki-templatetable_c.png)
+![](images/lowiki-templatetable_c.jpg)
 
 --
 
-![](images/lowiki-exportcsv_c.png)
+![](images/lowiki-exportcsv_c.jpg)
 
 --
 
-![](images/lowiki-exportkml_c.png)
+![](images/lowiki-exportkml_c.jpg)
 
 --
 
@@ -189,7 +189,7 @@ In other word, **text-base descriptions** are made **structral** by providing us
 
 --
 
-![](images/osmtm_c.png)
+![](images/osmtm_c.jpg)
 
 --
 
@@ -211,7 +211,7 @@ We don't import data frequently because:
 
 --
 
-![](images/osmtm-importaed_c.png)
+![](images/osmtm-importaed_c.jpg)
 
 However, there are now 8194 records of defibrillator in the [offician data](http://tw-aed.mohw.gov.tw/SearchPlace.jsp?Action=Search&City=&Area=&Type=&PlaceType=&Key=&intPage=260).
 
@@ -227,7 +227,7 @@ Doing this with OSM Tasking Manager would be:
 
 --
 
-![](images/osmtm-project_c.png)
+![](images/osmtm-project_c.jpg)
 
 --
 
@@ -244,23 +244,23 @@ We modified OSMTM so that one can:
 
 --
 
-![](images/osmtm-projectdataset_c.png)
+![](images/osmtm-projectdataset_c.jpg)
 
 --
 
-![](images/osmtm-task_c.png)
+![](images/osmtm-task_c.jpg)
 
 --
 
-![](images/id-taskdata_c.png)
+![](images/id-taskdata_c.jpg)
 
 --
 
-![](images/josm-taskdata_c.png)
+![](images/josm-taskdata_c.jpg)
 
 --
 
-![](images/osmtm-done_c.png)
+![](images/osmtm-done_c.jpg)
 
 --
 
@@ -322,8 +322,8 @@ LocalWiki ⇒ OSM Note ⇒ OSM
 
 --
 
-![](images/watermap-note_c.png)
+![](images/watermap-note_c.jpg)
 
 --
 
-![](images/watermap-issue_c.png)
+![](images/watermap-issue_c.jpg)
