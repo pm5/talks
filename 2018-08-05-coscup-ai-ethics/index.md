@@ -291,6 +291,6 @@ https://xkcd.com/2030/
 ## Thank you for your time
 ### 感謝
 
-吳柏旻 Pomin Wu @pm5
+吳柏旻 Pomin Wu [@pm5](https://github.com/pm5)
 
 Trustable AI https://trustable.ai/
