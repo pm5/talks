@@ -6,6 +6,7 @@
 * 2017-05-13. [飲水地圖與 OpenStreetMap](https://pm5.github.io/talks/2017-05-13-watermap-osm) at 台東荒野.
 * 2017-01-19. [OGP Hackathon](https://pm5.github.io/talks/2017-01-19-OGP-hackathon).
 * 2016-12-17. [OGP Hackathon](https://pm5.github.io/talks/2016-12-17-OGP-hackathon).
+* 2018-08-11. [從 Ethical AI 談機器學習的隱私與公平性問題](https://pm5.github.io/talks/2018-08-05-coscup-ai-ethics) at COSCUP 2018.
 
 Past talks are being added back gradually.
 

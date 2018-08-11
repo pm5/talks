@@ -2,6 +2,12 @@
 ## Fairness and privacy issues in Machine Learning
 ### 從 Ethical AI 談機器學習的<br />隱私與公平性
 
+
+Full slides at<br />
+https://pm5.github.io/talks/2018-08-05-coscup-ai-ethics/
+
+![](images/qrcode.svg)
+
 ---
 
 # Fairness
