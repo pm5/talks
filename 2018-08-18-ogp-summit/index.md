@@ -1,4 +1,4 @@
-title: Basic Example
+title: OGP Summit 2018 整體觀察
 author:
   name: Pomin Wu
   twitter: pm5
@@ -8,7 +8,15 @@ controls: true
 
 --
 
-# OGP Summit 2018 分享
+# OGP Summit 2018 整體觀察
+
+--
+
+# ![](./qrcode.svg)
+
+<div style="text-align: center">
+https://pm5.github.io/talks/2018-08-18-ogp-summit
+</div>
 
 --
 
@@ -32,6 +40,10 @@ controls: true
   - 7/16 OGP Local Workshop (invitation only)
   - 7/16 17:30-19:00 OGP Local Open Government Innovation Exchange
   - 7/16 19:00-21:00 OGP Local Reception
+
+--
+
+# 2016-2018 觀察
 
 --
 
@@ -66,11 +78,11 @@ controls: true
 --
 
 * [經濟部智慧財產局研擬封鎖境外侵權網站事件](https://zh.wikipedia.org/zh-tw/%E7%B6%93%E6%BF%9F%E9%83%A8%E6%99%BA%E6%85%A7%E8%B2%A1%E7%94%A2%E5%B1%80%E7%A0%94%E6%93%AC%E5%B0%81%E9%8E%96%E5%A2%83%E5%A4%96%E4%BE%B5%E6%AC%8A%E7%B6%B2%E7%AB%99%E4%BA%8B%E4%BB%B6)
-* [揭仲：從中共戰略支援部隊，思考蔡政府的資通電軍](https://theinitium.com/article/20160705-opinion-jiezhong-informationandcommunicationsecurity/)
-* [以保護智財之名一直來一直來的意圖 — 論鄭運鵬封網草案](https://medium.com/@irvinfly/%E4%BB%A5%E4%BF%9D%E8%AD%B7%E6%99%BA%E8%B2%A1%E4%B9%8B%E5%90%8D%E4%B8%80%E7%9B%B4%E4%BE%86%E4%B8%80%E7%9B%B4%E4%BE%86%E7%9A%84%E6%84%8F%E5%9C%96-%E8%AB%96%E9%84%AD%E9%81%8B%E9%B5%AC%E5%B0%81%E7%B6%B2%E8%8D%89%E6%A1%88-3261e96a2917)
+* 揭仲：[從中共戰略支援部隊，思考蔡政府的資通電軍](https://theinitium.com/article/20160705-opinion-jiezhong-informationandcommunicationsecurity/)
+* Irvin Chen: [以保護智財之名一直來一直來的意圖 — 論鄭運鵬封網草案](https://medium.com/@irvinfly/%E4%BB%A5%E4%BF%9D%E8%AD%B7%E6%99%BA%E8%B2%A1%E4%B9%8B%E5%90%8D%E4%B8%80%E7%9B%B4%E4%BE%86%E4%B8%80%E7%9B%B4%E4%BE%86%E7%9A%84%E6%84%8F%E5%9C%96-%E8%AB%96%E9%84%AD%E9%81%8B%E9%B5%AC%E5%B0%81%E7%B6%B2%E8%8D%89%E6%A1%88-3261e96a2917)
 * [政委欲封 AirBnB 阻日租套房惹議還上網筆戰辯護，反映網路新時代舊思維的衝突](http://technews.tw/2018/08/03/minister-without-portfolio-want-to-ban-access-to-airbnb-to-stop-day-rent-studio-and-he-also-fight-online/)
 
 --
 
-* [APrIGF 2017 參與心得 (5) 實際了解多方利害關係人機制](https://medium.com/@yinchuchen/aprigf-multistakeholder-7ff8ce33848)
-* [COSCUP 小記：科技社群如何參與科技政策規劃](https://blog.sense.tw/2018/08/community-tech-policy-coscup/)
+* 陳映竹：[APrIGF 2017 參與心得 (5) 實際了解多方利害關係人機制](https://medium.com/@yinchuchen/aprigf-multistakeholder-7ff8ce33848)
+* Sense.tw: [COSCUP 小記：科技社群如何參與科技政策規劃](https://blog.sense.tw/2018/08/community-tech-policy-coscup/)
