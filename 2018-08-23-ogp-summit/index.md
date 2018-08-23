@@ -1,4 +1,4 @@
-title: OGP Summit 分享會(二)：聚焦各國案例：公民科技 x 不實訊息 x 環境
+title: OGP Summit 分享會：公民科技 x 不實訊息 x 環境
 author:
   name: Pomin Wu
   twitter: pm5
@@ -9,6 +9,14 @@ controls: true
 --
 
 # OGP Summit<br />公民科技
+
+--
+
+# ![](./qrcode.svg)
+
+<div style="text-align: center">
+https://pm5.github.io/talks/2018-08-23-ogp-summit/
+</div>
 
 --
 
