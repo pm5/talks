@@ -53,15 +53,23 @@
 
 ### 數據
 
-[2015 年，開放街圖上的公共飲水點位置](https://www.facebook.com/photo.php?fbid=10204871941812542)：
+[](https://www.facebook.com/photo.php?fbid=10204871941812542)：
 
-![](pictures/osm-201503.jpg)
+![2015 年，開放街圖上的公共飲水點位置](pictures/osm-201503.jpg)
 
 ---
 
 2018 年尾：
 
 ![](pictures/osm-201810.jpg)
+
+---
+
+![](pictures/watermap0.jpg)
+
+---
+
+![](pictures/watermap1.jpg)
 
 ---
 
@@ -75,7 +83,13 @@
 
 * （2017 年）平均每個月 600~1000 人次
 
-社群：[飲水地圖臉書社團](https://www.facebook.com/groups/1255977671181394/)、[hackfoldr](https://beta.hackfoldr.org/drinking-water)
+---
+
+## 社群
+
+* [飲水地圖臉書社團](https://www.facebook.com/groups/1255977671181394/)：84 名成員
+* 小聚：12 次
+* [hackfoldr](https://beta.hackfoldr.org/drinking-water)
 
 ---
 
@@ -94,6 +108,24 @@
 * 起始的資料從哪裡來？
 * 網站技術
 * 如何設計推廣活動？
+
+---
+
+## Water Go!
+
+[Water Go!規畫20180919](https://docs.google.com/presentation/d/16_hyu9BvxwUwvOar6gE3-FkL6-s2SaUTxdnc-EHjLjc/edit?fbclid=IwAR3UFNcNPCDBSaLx7NNo1ydAsU70ShhxmhhdvI7VRtrmr8eU26uBWHBb5wo#slide=id.p2)計劃目標：
+
+> 保護水資源及減少瓶裝水
+> 建立都會區方圓500公尺都有免費飲水點之地圖
+> 蒐集台灣各縣市免費飲水點資料
+> 邀請300個民間機構, 包含旅遊業, 餐飲業加入成為供水站
+> 推廣免費飲用水參與者/流量達1萬人次
+> 地圖或網站流量倍增
+> 建置免費飲用水地圖之平台及手機應用程式
+
+---
+
+但飲水地圖不是這樣開始著手的。
 
 ---
 
@@ -149,6 +181,25 @@
 
 ### 階段 3
 
+* 透過社團回報問題
+* 透過網站回報問題
+* 使用者回報的問題會進到 OSM 資料庫，讓所有製圖者一起修正資料。
+
+---
+
+[![](pictures/report-fb.jpg)](https://www.facebook.com/photo.php?fbid=1945781292179972)
+
+------
+
+![](pictures/report-map.jpg)
+
+------
+
+
+[![](pictures/report-list.jpg)](https://watermap.teia.tw/notes.html)
+
+---
+
 ![](pictures/flow-stage3.svg)
 
 * 完成一個資料流通的迴圈（loop）
@@ -157,25 +208,11 @@
 
 ---
 
-### 透過社團回報問題
-
-[![](pictures/report-fb.jpg)](https://www.facebook.com/photo.php?fbid=1945781292179972)
-
-------
-
-### 透過網站回報問題
-
-![](pictures/report-map.jpg)
-
-------
-
-使用者回報的問題會進到 OSM 資料庫，讓所有製圖者一起修正資料。
-
-![](pictures/report-list.jpg)
+## 問題
 
 ---
 
-## NGO vs 開放社群
+## 問題：NGO vs 開放社群
 
 * 台灣解嚴後的 NGO 處境
 * 為什麼要接觸社群？協力、接力、培力
@@ -189,7 +226,7 @@
 ## 台灣解嚴後的 NGO 處境
 
 * 缺少國際組織
-* 學會 & 基金會 to 協會 & 學術網路 to 公民團體 & 社群
+* 學會 or 基金會 ➡️➡️ 協會 & 學術網路 to 公民團體 & 社群
 
 ---
 
@@ -213,6 +250,6 @@
 
 ## 其它案例
 
-### HOT（Humanitarian OpenStreetMap Team）
+* HOT（Humanitarian OpenStreetMap Team） [hotosm.org](https://www.hotosm.org/)
 
-[hotosm.org](https://www.hotosm.org/)
+![](pictures/hotosm.jpg)
