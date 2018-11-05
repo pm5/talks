@@ -33,6 +33,10 @@ Source: <https://g0v.tw/en-US/about.html>
 
 ---
 
+Let me demonstrate the values by starting a "[talking about g0v in OGP Networking Day](https://hackmd.io/OkKtw4ygTue3Flr9b83FYg?view#)" project.
+
+---
+
 ## Ideas behind g0v
 
 I'm here to talk about g0v, but no to represent g0v, because:
@@ -40,6 +44,21 @@ I'm here to talk about g0v, but no to represent g0v, because:
 * nobody represents g0v
 * ask not why nobody is doing something, because you are that nobody
 * everyone can represent her own view of g0v
+
+---
+
+## What actually happend?
+
+1. I was invited to give this talk ("dug a hole for me.")
+2. I accepted (I "jumped into the hole" and became the "owner of the hole.")
+3. I started collaboration by announcing my project and ask around for helps.
+4. I get down to work and finish to talk.
+
+[![](pictures/talk-hackmd.png)](https://hackmd.io/OkKtw4ygTue3Flr9b83FYg?view)
+
+---
+
+Actually, it did not go as smoothly as it seems.
 
 ---
 
@@ -58,39 +77,31 @@ Join us:
 
 Language
 
-moedict
+[![moedict](pictures/moedict.png)](https://moedict.tw/)
 
-iTaigi
+[![iTaigi](pictures/itaigi.png)](https://itaigi.tw/)
 
-'AMIS moedict
+[!['AMIS moedict](pictures/amis.png)](https://amis.moedict.tw/)
 
 ---
 
 Easy access to government information
 
-Budget
+[![Budget](pictures/budget.png)](http://budget.g0v.tw/budget)
 
-Weather
+[![Voting guide](pictures/councils.png)](https://councils.g0v.tw/)
 
-Voting guide
+[![National treasure](pictures/national-treasure.png)](https://www.nationaltreasure.tw/)
 
-National treasure
-
-Campaign Finance Crowdsourcing
-
-Open data advocates
+[![Campaign Finance Crowdsourcing](pictures/campaign-finance.png)](https://campaign-finance.g0v.ctiml.tw)
 
 ---
 
 Self-helps
 
-Hackfoldr
+[![Hackfoldr](pictures/hackfoldr.png)](https://beta.hackfoldr.org/)
 
-Cofacts
-
-g0v Air Quality Monitor
-
-Blood donation information https://g0v.github.io/color/#blood
+[![Cofacts](pictures/cofacts.png)](https://cofacts.g0v.tw)
 
 ---
 
@@ -106,112 +117,81 @@ Blood donation information https://g0v.github.io/color/#blood
 
 ---
 
-* [2014](https://summit.g0v.tw/2014/), [2016](https://summit.g0v.tw/2016/), [2018](https://summit.g0v.tw/2018/)
-* 2014: 2 days
-  - Open Parliament
-  - Participatory Democracy
-  - Education
-  - Civic Technologies
-  - Sunflower Movement
-  - Open Data and the Environment
-  - Age of Collaboration
-  - New Faces of Activism
-* 2016, 2 days
-  - Organizing
-  - Reimplementation
-  - Open culture experiments
-  - Open government
-  - Intersectoral
-  - Disasters
-  - Pollution
-* 2018, 3 days
-  - Workshops
-  - Money
-  - Truth
-  - News
-  - Community building
-  - Democracy reimagined
-  - Cross-disciplins
-  - Private-public partnership
+![g0v summit 2018](pictures/summit-back.jpg)
 
 ---
 
-1. We run by >= 100 volunteers each time.
-2. We have more and more people each time.
-3. We have Korean speakers each time!
+## Numbers by year
+
+* [2014](https://summit.g0v.tw/2014/): 2 days, 28 sessions, 45 speakers
+* [2016](https://summit.g0v.tw/2016/): 2 days, 47 sessions, 50 speakers
+* [2018](https://summit.g0v.tw/2018/): 3 days, 62 sessions, 91 speakers
 
 ---
 
-Personal view: We have shifted our focus from
+## Some observations
 
-* ..."how to get started / what have we achived" in 2014
-* ...to "how do we work with other domains" in 2016
+Our slogans:
+
+* [2014](https://summit.g0v.tw/2014/): "Write a program, change the society."
+* [2016](https://summit.g0v.tw/2016/): "Tear down the government, rebuild it in place."
+* [2018](https://summit.g0v.tw/2018/): "It's open.  What then?"
+
+---
+
+## Shifting our focus
+
+Personally, I think the focus has shifted from
+
+* ..."how to get started / showing what we have got so far" in 2014
+* ...to "let's discuss how we work with others" in 2016
 * ... to "why didn't it work / what are the lessons learned" in 2018
 
 ---
 
-## What we tried to do this year
+I think the programming committee and task force this year has tried to build an agenda that is: 
 
-As part of the programming committee in 2018 and programming task force in 2016, I think we have (aside from actually have a summit) been trying to focus on: 
-
-* honesty
-* not only "good news"
-* self-criticism: work condition, actual impact, political reality, etc.
-* community-centered
+* **Honest**: we have more sessions this year talking about "what doesn't work and why", "who's been left out", about if the project made actual impact (often no).
+* **Critical**: we have sessions about working conditions, gender, political conditions, etc.  We find speakers who are willing to *ask are things actually changed?* * Is it temporary or is it a more permanent change?*
+* **Community-centered**: we reserved the main conference room for community projects, and added a Bird-of-a-Feature gatherings besides the existing Unconference.
 
 ---
 
-English-Mandarin interpreters and [collaboration notes](https://g0v.hackmd.io/c/summit18/%2FAJoegfXqSDm6o1rndW_O_A)
+## Language barrier
+
+* English-Mandarin interpreters  and [collaboration notes](https://g0v.hackmd.io/c/summit18/%2FAJoegfXqSDm6o1rndW_O_A) since 2014.
+* Two sets of interpreters for deaf people.
+  ![](pictures/summit-signlang.jpg)
 
 ---
 
-[Unconf](https://beta.hackfoldr.org/g0v-Summit-2018-unconf)
+## Community-centered
+
+* We tried to be as inclusive as we could within our limits.
+* **Bootstrapping** and **funding**: these things are crucial but are hard to form the right team with the right people.
 
 ---
 
-two sets of interpreters for deaf people
+## Working conditions
+
+* These are the joint work of all [our staffs](https://summit.g0v.tw/2018/staff), all volunteers.
+* It has been putting too much stress on many of them.
 
 ---
 
-support as much as we can to Asia and fellow practitioners
+## Representativeness
 
----
-
-communities in R0, Audrey in R2
-
----
-
-I would not say that we are "inclusive".  We do value inclusiveness, but we trying to be as inclusive as we could within our limits.
-
-These are tho joint work of all [our staffs](https://summit.g0v.tw/2018/staff)
+* 
 
 ---
 
 [Lightning talk - 'Amis moedict Team](https://youtu.be/whdLxsMv4XQ?t=52)
 
-![](pictures/amis-moedict.png)
-
----
-
-## how did we organize g0v summit
-
----
-
-Roughly speaking:
-
-1. Someone started by "digging a hole".  She or he usually become the director/chair of the summit.
-2. Leaders of various "task forces", head of programming committee were inquired/picked by the director. 
-3. Each of the task force leaders would then find their own staff.  [This year's staff](https://summit.g0v.tw/2018/staff).
+!['Amis moedict'](pictures/amis-moedict.png)
 
 ---
 
 The preparation started one year ago at November 2017.
-
----
-
-Each of the task forces would usually choose their own governance model.  Some could be more centralised, or some staff would have complete control over a subject.
-
-We try to allow spaces for different governance model. 多種組織方式能夠各自生長的地方.
 
 ---
 

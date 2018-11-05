@@ -1,33 +1,61 @@
-Hello everyone.  I am here to sharing some things that I know about g0v, and I will talk about the summit we just had this year and I hope that will tell you how g0v works and why does it work this way.
+Hello everyone.  I am here to share some things that I know about g0v, and I will talk about the summit we just had this year and I hope that will tell you how g0v works and why does it work this way.
 
-A bit about myself.  My name is Pomin, some would call me pm5, and some would call me PM.  I do mathematics and computer programming, and worked in several places.  I am active in g0v and OpenStreetMap since 2013.
+A bit about myself.  My name is Pomin, some would call me pm5, and some would call me PM.  I do mathematics and computer programming, and have worked in several places.  I am active in g0v and OpenStreetMap since 2013.
 
-The slides that I have here are on-line.  You can scan this QR code or use the link here to read these slides on your phone.  It would be easier that way if you want to get all the links that I have put into them.
+The slides that I am having here are also on-line.  You can scan this QR code or use the link here to read these slides on your phone.  It would be easier that way if you want to get all the links that I have put into them.
 
-So let me start by explaining what is g0v.  g0v is a loosely-organised group of people who value three things here: open-source or open culture, hands-on spirit as a way of solving problems, and they are public-spirited citizens that care about the society.
+So let me start by explaining what is g0v.  g0v is a loosely-organised group of people who value three things: open-source or open culture, hands-on spirit as a way of solving problems, and we are public-spirited citizens that care about the society.
 
-So, three ideas: open culture, hands-on first, and public-spirited.  We will come back to them later.
+So, three ideas: open culture, hands-on first, and public-spirited.  We will keeping coming back to them in this talk.
 
-Although I'm here to talk about g0v, I'm not here to represent g0v, because nobody represents g0v.  This is because as a collective we try to let each one of us has a equal share of rights.  If g0v is represented by only a few people then the power structure would be too centralized.  This comes from our value of public-spirited, that we care about the power structures of groups of people and try find a balance in there.
+And I will use a little example to demonstrate these values.  Suppose that I started a project of "talking about g0v in OGP Networking Day" in the community.
 
-However, we also say that "ask not why nobody is doing something, because you are that nobody," which means you are the one who will get down to work, bite the bullet and do that thing that you care about.  This comes from our value of hands-on first.
+Then I'm here to talk about g0v, but I'm not here to represent g0v, because nobody represents g0v.  This is because as a collective we try to let each one of us has an equal share of rights.  If g0v is represented by only a few people, and everyone has to rely on the few to get the information that they need, then the power structure would be too centralized, and may be subjected to exploits or abuses.  This comes from our value of being public-spirited, that we care about the power structures in groups of people and try find a workable balance here.
 
-So if you add these two together, you get that everyone represents g0v, because you are that nobody, and nobody represents g0v.  In other words, everyone represents her own view of g0v.  Your view may be different from mine, but that doesn't make anyone of our views better or worse.  This comes from our value of open culture, where we often modify and reuse the work of other people, and here we express our own views and learn from each other.
+However, we also have a motto in the community which is "ask not why nobody is doing something, because you are that nobody," which means instead of asking people to do something, you could be the one who will get down to work, and do something about that something that you care for.  This comes from our value of hands-on first.
 
-So I hope that I have shown you that these 3 values together make a simple yet deeply empowering system that urge you to collaborate and make changes to the world.  But be careful, these are my view.  You might meet someone from g0v who does not emphasize these values so much as I do.
+So how do we reconcile these two ideas?  We add these two together, and get that everyone represents g0v, because you are that nobody, and nobody represents g0v.  In other words, everyone represents her own view of g0v.  Your view may be different from mine, but that doesn't make anyone of our views better or worse.  This comes from our value of open culture, where we often share, take, modify, and reuse the work of each other.  Here I can express my own view about the community and learn from each other.  This is the basis that I stand in front of you today to talk about what I know about g0v.
+
+Imagine if I am in a more tightly structured organisation, I might be cautioned not to express my opinions too often and do things I would like to work on, because of the impact it might bring.  I might even be bounded by regulations to express my opinions about my organisation.  In g0v we do not want to impose that kind of rules by default, because rules begets culture, and when a culture of restrictions become embedded in a group of people, the values of open source and hands-on spirit that we hold on to will be lost.
+
+So this was what actually happened.  GJ invited me to give a talk here today abouth g0v and civic tech in Taiwan.  In the terms that we use in g0v, she has "dug a hole" for me to jump in.  I did jump in.  That makes me the "owner of the hole".  I then started a collaborative note many days before this event, and put on the information that I got at the time, and what I intend to talk about.  That was my own view about the community.  And then I made an announcement in one of the relevant online chatrooms about this upcoming talk.  I ask a few questions that I do not know about, and hope that someone could answer me.  Someone did answer.  And then I have to get down to work and finish the talk here.
+
+It did not work as smoothly as it seems.  But I will get to that later.
+
+So I hope that I have shown you that these 3 values together make a simple yet deeply empowering system that urge you to collaborate and start making changes to the world.  But what exactly do we make or produce?
+
+We do language projects, where we collect information about our official and unofficial but common languages, endangered languages and indigenous languages, and make easy to use online dictionaries and educational web sites for them.
+
+We make government information easier to access, including visualisation of budgets, disclosing election candidates and what votes have they cast in the past, government official documents that are stored overseas that are related to our history, or campaign finance information.
+
+We make self-help tools for collaborative bookmark and notes collecting, which has been use from making collaborative notes in a conference to make a 1-stop information hub during crisis and disaster. We make tools for collecting and correcting misinformation spreaded in social networks by crowdsourcing the truth.
+
+Those were a selection of the things we make in g0v.  If you are interested, you should go to this list to check out more.  We also have a grant program in which every project selected would be given a small grant to sustain for half a year or one year.  That would be another quick list of projects if you want to find out more about us.
+
+But I want to spend the rest of my time not talking about projects, but about the difficulties that we were facing with our community values and how we are still dealing with them.  And I will take this year's g0v summit as an example.
+
+The first g0v summit was in 2014, and this year we had the third one last month.  This is an event through which we hope to connect the community to the general public, so it is community-centered, but it is not only for the community.  We hope we can attract as many from g0v community as from the general public, and create a safe space for communication.
+
+The 2014 summit was a 2 day event, with 28 sessions and 45 speakers.  The 2016 one was also 2 day event but with 47 sessions and 50 speakers.  This year we had 62 session and 91 speakers, and it became a 3 day event.
+
+I do not have exact number of antendees with me, but my knowledge is that they are usually between 400 to 600 people.
+
+But aside from the "growth" of the conference, I want to share with you some of my observations as head of the programming committee this year.  The first g0v summit in 2014 was an event that introduces the spirit of open collaboration to the general public, and to show how these values can be applied to solve actual problems in the society.  So our slogan at the time was "Write a program, change the society." Then in 2016 our slogan was "Tear down the government, rebuild it in place."  This was when we were trying to collaborate more with other groups of people, including the NGOs, startups, public servants, and politicians.
+
+In 2018 this year our slogan was "It's open.  What then?", because we want to see more stories about the aftermath of a movement or an activity or a project.
+
+Personally, I think our focus has shifted from "showing what we have got" in 2014, to "discuss how we work with others from different backgrounds" in 2016, to "why didn't it work, and what are the lessons learned" in 2018.
+
+These are the themes that we feel are "right" at the moment of the event.  These are the discussions that we feel are needed at the time.
+
+And for this year, I think the programming committee and task force this year has tried to build an agenda that is honest (...), critical (...), and community-centered (...).
+
+
+  The summit also came right after the Sunflower Movement in Taiwan in 2014, a 23-day occupy of the legislative branch of the Taiwanese government in order to stop the passing of a trade agreement with Chian.  g0v participants have played important roles in the successful movement, so it was easy to feel the revolutionary aspects of applying technologies in politics and society.
+
+Just like nobody represents g0v, g0v also does not represent civic tech in Taiwan, where we have
 
 So let me invite you to join us and see it for yourself.  If you are okay with Slack, invite yourself to our Slack that currently has about 4000 people signed up.  You can add yourself to the `general-kr` channel for Korean translations of everything on the `general` channel where everyone is.  If you are traveling to Taiwan, consider join us in our next hackathon at December 8.
 
-So what exactly do we make or produce?
 
-We do language projects.
-
-We make government information easier to access.
-
-We make self-help tools.
-
-Those were a selection of the things we make in g0v.  If you are interested, you should go to this list to check out more.  We also have a grant program in which every project selected would be given a small grant to sustain for half a year or one year.  That would be another quick list of projects if you want to find out more about use.
-
-So it could be a bit overwhelming for someone new to the community.  And we tried to help people understand and communicate the idea of the community and civictech with another slightly bigger project, which is g0v summit.
-
-g0v summit.
+  I could have started preparing the talk earlier, and I could have ask a wider range of people for their opinions.  But we do what can do within our limits.  And this is not to say that we do not have power structures in g0v.  We simple do not impose a power structure by default, thereby allowing spaces for different governance models for projects in different stages.  We believe by sharing openly about what we do and improving the tools that we use to share, we can in many cases choose a more equal and balanced governance model without falling into the mindset of a centralised organisation.
