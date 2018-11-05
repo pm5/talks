@@ -62,15 +62,6 @@ Actually, it did not go as smoothly as it seems.
 
 ---
 
-## See it for yourself
-
-Join us:
-
-* Invite yourself to our ~4000 people Slack (with a `#general-kr` channel for Korean speakers): <https://join.g0v.tw/>
-* If you are traveling to Taiwan, come to our [bi-monthly hackathon](https://hack.g0v.tw/) at Taipei.  The next one will be at December 8, 2018.
-
----
-
 ## But what exactly do you do/produce?
 
 ---
@@ -185,20 +176,17 @@ I think the programming committee and task force this year has tried to build an
 
 ---
 
-[Lightning talk - 'Amis moedict Team](https://youtu.be/whdLxsMv4XQ?t=52)
-
-!['Amis moedict'](pictures/amis-moedict.png)
+[!['Amis moedict'](pictures/amis-moedict.png)](https://youtu.be/whdLxsMv4XQ?t=52)
 
 ---
 
-The preparation started one year ago at November 2017.
+## See it for yourself
+
+Join us:
+
+* Invite yourself to our ~4000 people Slack (with a `#general-kr` channel for Korean speakers): <https://join.g0v.tw/>
+* If you are traveling to Taiwan, come to our [bi-monthly hackathon](https://hack.g0v.tw/) at Taipei.  The next one will be at December 8, 2018.
 
 ---
 
-## jothon
-
----
-
-Culture
-
----
+## Thank you

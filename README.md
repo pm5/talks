@@ -11,6 +11,7 @@
 * 2018-08-23. [OGP Summit 分享會：公民科技](https://pm5.github.io/talks/2018-08-23-ogp-summit/) at OGP Summit 分享會：公民科技 x 不實訊息 x 環境
 * 2018-10-16. [臺灣民主基金會民主人權實踐訪問學人 Klaikong Vaidhyakarn 研究成果發表會](https://pm5.github.io/talks/2018-10-16-tfd-klaikong)
 * 2018-10-22. [跨領域合作如何可能？公民團體與開放資料的介接 –– 飲用水地圖計畫](https://pm5.github.io/talks/2018-10-22-ocf-ngo-open-data/) at OCF 公民科技交流計畫
+* 2018-11-05. [g0v and g0v summit](https://pm5.github.io/talks/2018-11-05-korea-ogp-g0v-summit/) at OGP Networking Day.
 
 Past talks are being added back gradually.
 
