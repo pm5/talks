@@ -1,0 +1,33 @@
+Hello everyone.  I am here to sharing some things that I know about g0v, and I will talk about the summit we just had this year and I hope that will tell you how g0v works and why does it work this way.
+
+A bit about myself.  My name is Pomin, some would call me pm5, and some would call me PM.  I do mathematics and computer programming, and worked in several places.  I am active in g0v and OpenStreetMap since 2013.
+
+The slides that I have here are on-line.  You can scan this QR code or use the link here to read these slides on your phone.  It would be easier that way if you want to get all the links that I have put into them.
+
+So let me start by explaining what is g0v.  g0v is a loosely-organised group of people who value three things here: open-source or open culture, hands-on spirit as a way of solving problems, and they are public-spirited citizens that care about the society.
+
+So, three ideas: open culture, hands-on first, and public-spirited.  We will come back to them later.
+
+Although I'm here to talk about g0v, I'm not here to represent g0v, because nobody represents g0v.  This is because as a collective we try to let each one of us has a equal share of rights.  If g0v is represented by only a few people then the power structure would be too centralized.  This comes from our value of public-spirited, that we care about the power structures of groups of people and try find a balance in there.
+
+However, we also say that "ask not why nobody is doing something, because you are that nobody," which means you are the one who will get down to work, bite the bullet and do that thing that you care about.  This comes from our value of hands-on first.
+
+So if you add these two together, you get that everyone represents g0v, because you are that nobody, and nobody represents g0v.  In other words, everyone represents her own view of g0v.  Your view may be different from mine, but that doesn't make anyone of our views better or worse.  This comes from our value of open culture, where we often modify and reuse the work of other people, and here we express our own views and learn from each other.
+
+So I hope that I have shown you that these 3 values together make a simple yet deeply empowering system that urge you to collaborate and make changes to the world.  But be careful, these are my view.  You might meet someone from g0v who does not emphasize these values so much as I do.
+
+So let me invite you to join us and see it for yourself.  If you are okay with Slack, invite yourself to our Slack that currently has about 4000 people signed up.  You can add yourself to the `general-kr` channel for Korean translations of everything on the `general` channel where everyone is.  If you are traveling to Taiwan, consider join us in our next hackathon at December 8.
+
+So what exactly do we make or produce?
+
+We do language projects.
+
+We make government information easier to access.
+
+We make self-help tools.
+
+Those were a selection of the things we make in g0v.  If you are interested, you should go to this list to check out more.  We also have a grant program in which every project selected would be given a small grant to sustain for half a year or one year.  That would be another quick list of projects if you want to find out more about use.
+
+So it could be a bit overwhelming for someone new to the community.  And we tried to help people understand and communicate the idea of the community and civictech with another slightly bigger project, which is g0v summit.
+
+g0v summit.
