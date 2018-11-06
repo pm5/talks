@@ -189,4 +189,10 @@ Join us:
 
 ---
 
+## License
+
+Photo of g0v summit credits to [g0vphoto](https://www.flickr.com/photos/g0v/).
+
+---
+
 ## Thank you
