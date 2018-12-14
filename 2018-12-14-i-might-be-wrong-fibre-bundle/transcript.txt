@@ -1,0 +1,14 @@
+I like to present the definitions first.  Please bare with me, and it will be relevant soon in 5 minutes.  You will need to know the concept of continuous maps, product space, and groups.
+
+So time for some examples.  Obviously we should start with Mobius strips.  But let us begin with something almost trivial.  Here is a tube brush.
+
+Here is a bagel cut into Mobius strip.  So the group I was talking about in the definition.  It's here.  It's $\mathbb{Z}/2$ in this case.
+
+And then it's Klein bottle.
+
+The last case I will talk about is vector bundle.  Why is this relevant?  There is a sf novel *Diaspora* where people turned themselves into the entities in the fibre space, thereby escaped a catastrophe in the universe.  This is just one example of the aftermath of turning human into posthuman.  Personally I think the genre works have only stratched the surface of this issue, so I'd like to show you a more far-reaching thought experiments.  I think the book *How We Became Posthuman?* is a good reference in this respect if you are really interested.
+
+Here are some references:
+
+* Norman Steenrod, *The Topology of Fibre Bundles*.
+* Greg Egan, *Diaspora*.
