@@ -2,7 +2,7 @@ I like to present the definitions first.  Please bare with me, and it will be re
 
 So time for some examples.  Obviously we should start with Mobius strips.  But let us begin with something almost trivial.  Here is a tube brush.
 
-Here is a bagel cut into Mobius strip.  So the group I was talking about in the definition.  It's here.  It's $\mathbb{Z}/2$ in this case.
+Here is a bagel cut into Mobius strip.  So the group I was talking about in the definition.  It's here.  It's $\mathbb{Z}/2$ in this case.  You see, now you cannot spread jam on one side of it and butter on the other, because there is only one side.
 
 And then it's Klein bottle.
 
