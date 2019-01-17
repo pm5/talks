@@ -1,0 +1,56 @@
+我先講一下等一下會怎麼進行。
+
+首先，這場是數學課。真的數學課，等一下不會講到什麼數學與藝術的交集什麼的⋯⋯我會介紹一個數學上的結構，然後就舉一些例子。
+
+我會先講定義，所以一開始會有一點嚇人。但是我會很快講完。先講定義是因為我希望讓大家感受一下數學家怎麼理解事情的。數學家很少在沒有把定義搞清楚之前就開始討論事情，跟一般人的習慣可能不太一樣。我們可能平常會一邊討論事情才一邊慢慢把定義講出來，可是數學家是反過來，所有的討論都是根據定義裡有的東西去推𧗠，定義裡沒有東西的就不會憑空加進來，所以數學家不太會有討論到一半的時候才在問彼此「所以你對⋯⋯的定義是什麼」，除非是忘記定義了。
+
+雖然在場的人應該數學家不會很多，但也許看直播的人其中也有數學家，所以我還是用數學家習慣的方式從定義開始談起。
+
+講完定義大概只要 5 分鐘，這個部份如果實在聽不懂，沒有關係，剩下的時間我都會用各種例子來解釋這個定義。
+
+我要講的東西叫做 fibre bundle。它的定義是這樣。我們這裡討論的空間都是 Euclidean space，也就是歐式幾何空間，你可以把它想成就是 $\mathbb{R}^n$ $n$ 維實數空間。這些討論的映射，或者說函數，都是連續函數，你可以把它想成是在描述一個空間的點到另一個空間的點的對映關係，就像你在組紙模型的時候把貼在一起黏合的關係。
+
+Fibre bundle 是一組空間和對映關係：（圖）
+
+上面這個是 $E$ total space、下面是 $B$ base space、最上面是 $F$ fibre space。在這裡我們會有 $E\xrightarrow{p}B$，就是 $E$ 裡面的每一個點都會對映到 $B$ 的某個點。我們有 $F\cong p^{-1}(x_0)\subset E$，意思是說如果隨便找一個 $x_0\in B$，那我們去看看 $E$ 裡面對映到 $x_0$ 的所有的點，這就是 $E$ 裡面的一小部份，這是 $p^{-1}(x_0)\subset E$ 的意思，那上面就是說 $p^{-1}(x_0)$ 長得跟 $F$ 一模一樣，$\cong$ 這個符號是 homeomorphic，意思是兩邊的 space 彼此的點都有正好一對一的對映。這裡重要的是 $x_0$ 是隨便哪一個都可以，也就是你可以找 $x_1\ne x_0\in E$，那 $x_1$ 跟 $x_0$ 不一樣，自然 $p^{-1}(x_1)\ne p^{-1}(x_0)$，但是它們都 homeomorphic to $F$。
+
+接下來 fibre bundle 還有幾個結構。第一個是我們剛才看到每個 $x_0\in B$ 的 pre-image $p^{-1}(x_0)$ 都長得一樣。那如果你在 $B$ 裡面考慮 $x_0$ 「附近」的情況，也就是你到隨意找一個 $U\subset B$ 而且 $x_0\in U$，一樣可以考慮 pre-image $p^{-1}(U)$。Fibre bundle 要求對任何 $x_0\in B$ 一定有一個附近 $x_0\in U\subset B$ 會讓這個 pre-image $p^{-1}(U)\cong U\times F$。這個乘法 $\times$ 是空間的乘法，Cartesian product，也就是你在想 $\mathbb{R}^n$ 空間的時候你會想一個維度，再加上一個維度，就變成 2 維，的那個「加上一個維度」在做的事情。所以 $U\times F$ 其實就是 $(u, v)$，$u\in U$、$v\in F$ 這樣的點的集合。這是數學上最簡單的組合兩個 space 的方法之一，所以 fibre bundle 這個要求就是說，對任何的 $x_0\in B$ 你一定可以找到一個夠小的附近範圍，在這個範圍裡你去看 $E$ 裡的 pre-image 的時候會是最單純的狀況。
+
+那麼就有一個對映 $U\times F\xrightarrow[\cong]{\varphi}p^{-1}(U)\subset E$。Fibre bundle 要求組合起來的 $U\times F\xrightarrow[\cong]{\varphi}p^{-1}(U) \xrightarrow{p} U$ 是最簡單的 $U\times F\xrightarrow{p_1}U$，也就是把 $(u, v)$ 對映到 $u$ 的這種映射。
+
+最後 fibre bundle 一件比較複雜但是仔細想想很合理的事情。如果你隨意取個 $x_0\in B$，那 $x_0$ 的附近的取法有好多種，你可以取 $x_0\in U\subset B$，也可以取 $x_0\in V\subset B$。那如果你取的 $U$ 和 $V$ 都有上面這種性質，你就會在 $U\cap V\subset B$ 上有兩種不同的 $(U\cap V)\times F$。也就是你有
+$$
+(U\cap V)\times F\xrightarrow{\varphi_U}p^{-1}(U\cap V)\xrightarrow{p}U\cap V
+$$
+也有
+$$
+(U\cap V)\times F\xrightarrow{\varphi_V}p^{-1}(U\cap V)\xrightarrow{p}U\cap V
+$$
+你看一下那個 $\varphi_U$ 跟 $\varphi_V$ 是不同的映射方法，但它們都從一樣的地方出發，對映到一樣的地方，而且它們都是 homeomorphism。所以對任何一個 $x_1\in U\cap V$，你會有
+$$
+(U\cap V)\times F\xrightarrow{\varphi_U}p^{-1}(U\cap V)\xrightarrow{\varphi_V^{-1}}(U\cap V)\times F
+$$
+而且因為用 $p$ 對映到 $U\cap V$ 都是簡單的 project 的關係，實際上你會有
+$$
+F\cong x_1\times F\xrightarrow{\varphi_U}p^{-1}(U\cap V)\xrightarrow{\varphi_V^{-1}}x_1\times F\cong F
+$$
+所以你只要有一個這樣的 $U$ 和 $V$，就會變出一個 $F$ 到 $F$ 的 homeomorphism。我們把這些各式各樣的 homeomorphism 搜集起來，要求一個 fibre bundle 必須規定清楚它只容許哪些 homeomorphism 出現。這些 homeomorphism 所形成的集合實際上會是一個群（group）。
+
+好，這就是 fibre bundle 的定義。接下來我要花點時間解釋實際上的例子。
+
+So time for some examples.  Obviously we should start with r strips.  But let us begin with something almost trivial.  Here is a tube brush.
+
+Here is a bagel cut into Mobius strip.  So the group I was talking about in the definition.  It's here.  It's $\mathbb{Z}/2$ in this case.  You see, now you cannot spread jam on one side of it and butter on the other, because there is only one side.
+
+And then it's Klein bottle.
+
+最後我拿一本小說裡的設定做例子。這本書 *Diaspora* 裡有一些假想的物理學理論，叫 Kozuch Theory。古典的 Kozuch Theory 就是把宇宙描述成 4 維的 spacetime 為 base space 的一個 $6$-sphere bundle。
+
+The last case I will talk about is vector bundle.  Why is this relevant?  There is a sf novel *Diaspora* where people turned themselves into the entities in the fibre space, thereby escaped a catastrophe in the universe.  This is just one example of the aftermath of turning human into posthuman.  Personally I think the genre works have only stratched the surface of this issue, so I'd like to show you a more far-reaching thought experiments.  I think the book *How We Became Posthuman?* is a good reference in this respect if you are really interested.
+
+The last thing I want to mention is how mathematicians work with these tools.  When we see a Mobius strip, we do not see the geometrical construction of the strip but the fibre bundle structure, then the bundle maps, then apply some functors we have which often generates a net of modules (think vector spaces) and mappings.  You could picture the fibre bundle bounded in the net of multiple maps and values, so that its values and properties could have only finitely many possibilities.  Mathematicians work those things out.  Yes, I know when I say it that way it feels like 紫微.
+
+Here are some references:
+
+* Norman Steenrod, *The Topology of Fibre Bundles*.
+* Greg Egan, *Diaspora*.
