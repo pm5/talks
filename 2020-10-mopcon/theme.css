@@ -4,16 +4,23 @@
 	--font-mono: Consolas, Monaco, 'Andale Mono', monospace;
 	--font-body: 'Helvetica Neue', Helvetica, Segoe UI, sans-serif;
 	--font-heading: var(--font-body);
-	--color-yellow: hsl(50, 100%, 50%);
+  --color-pink: hsl(304deg, 97%, 51%);
+  --color-grass: hsl(126deg, 96%, 47%);
+  --color-ocean: hsl(187deg, 100%, 53%);
+	--color-yellow: hsl(50, 100%, 45%);
 	--color-green: hsl(100, 60%, 50%);
 	--color-aqua: hsl(190, 100%, 40%);
 	--color1: var(--color-yellow);
-	--color2: var(--color-green);
-	--color3: var(--color-aqua);
-	--accent1: var(--color-aqua);
-	--accent2: var(--color-green);
-	--accent3: var(--color-yellow);
-	--accent4: hsl(336, 100%, 55%);
+	--color2: var(--color-ocean);
+	--color3: var(--color-pink);
+  --accent1: var(--color-pink);
+  --accent2: var(--color-ocean);
+  --accent3: var(--color-yellow);
+  --accent4: hsl(336, 100%, 55%);
+	/*--accent1: var(--color-pink);*/
+	/*--accent2: var(--color-grass);*/
+	/*--accent3: var(--color-ocean);*/
+	/*--accent4: var(--color-pink);*/
 	--light1: hsl(200, 40%, 80%);
 	--medium1: var(--color-yellow);
 	--dark1: hsl(200, 15%, 20%);
@@ -39,7 +46,6 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
 	color: inherit;
-	text-decoration-color: hsla(0,0%,100%,.4);
 }
 
 strong, b {
@@ -98,8 +104,8 @@ img {
 }
 
 ::selection {
-	background: var(--dark1);
-	color: white;
+	background: white;
+  color: var(--dark1);
 	text-shadow: none;
 }
 
@@ -109,8 +115,8 @@ img {
 	align-items: center;
 	justify-content: center;
 	padding: 2.5rem;
-	background: radial-gradient(transparent, rgba(0,0,0,.7)) var(--dark1);
-	color: white;
+	background: white;
+  color: var(--dark1);
 }
 
 @media (max-width: 1024px) {
@@ -141,6 +147,10 @@ img {
 		font-size: 120%;
 	}
 
+body > header.slide {
+  background: purple;
+}
+
 section > header.slide {
 	background: linear-gradient(to bottom right, var(--accent3), var(--accent2), var(--accent1), var(--accent2), var(--accent3));
 }
@@ -152,7 +162,7 @@ section > section > header.slide {
 	section > header.slide > h1 {
 		margin: auto;
 		padding: .5em .7em;
-		background: black;
+		background: white;
 		text-align: center;
 		font-size: 250%;
 		line-height: 1.2;
@@ -160,7 +170,7 @@ section > section > header.slide {
 	}
 
 #indicator {
-	color: white;
+  color: var(--dark1);
 }
 
 /* Quotes */
