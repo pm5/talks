@@ -13,7 +13,7 @@
 * 2018-10-22. [跨領域合作如何可能？公民團體與開放資料的介接 –– 飲用水地圖計畫](https://pm5.github.io/talks/2018-10-22-ocf-ngo-open-data/) at OCF 公民科技交流計畫
 * 2018-11-05. [g0v and g0v summit](https://pm5.github.io/talks/2018-11-05-korea-ogp-g0v-summit/) at OGP Networking Day.
 * 2019-03-09. [g0v-intl](https://pm5.github.io/talks/2019-03-09-g0v-intl/) at g0v hackthon.
-* 2020-10-24. [MOPCON g0v 啥物 撒蜜 g0v](https://pm5.github.io/talks/2020-10-24-mopcon/).
+* 2020-10-24. [MOPCON g0v 啥物 撒蜜 g0v](https://pm5.github.io/talks/2020-10-mopcon-g0v-summit/).
 
 Past talks are being added back gradually.
 
