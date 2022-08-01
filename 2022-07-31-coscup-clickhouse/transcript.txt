@@ -1,0 +1,69 @@
+I may have the title of the talk a bit misleading.  I set out to read the code of ClickHouse to solve some of my questions when using it, and some of the questions were not limited to its storage engine.
+
+So I may touch a few more components in ClickHouse code in order to answer a few questions at the end of the talk.
+
+A little bit about ClickHouse.  It's a column-based SQL database.  It's very very fast.
+
+All sounds very good.  The problems I had with using ClickHouse are the followings:
+
+- Why no relative subqueries?
+- Why is join query so slow?
+- How do aggregate functions work?
+
+To start with, there is a pretty nice [Architecture Overview](https://clickhouse.com/docs/en/development/architecture) on ClickHouse web site.  Unfortunately, it is slightly outdated.  If you see any article about ClickHouse internals that mention "Block Streams" or formats implemented with block streams, it's probably outdated.  Constructions like `IBlockOutputStream`, `IBlockInputStream` are replaced by `IProcessor` a while ago.  Since 2020 if I understand correctly.
+
+## Storages
+
+So let's dive into the code.  Let's start from storage engine, which are the engines for database tables, and we will soon see what these processors are.  Storage engines in ClickHouse has an interface `IStorage` defined in `src/Storages/IStorage.h`.  The most important methods are `read` and `write`.
+
+<!-- code -->
+
+Bascially, the default implementation of `read` creates a `Pipe`, which is used to create a `ReadFromStorageStep`, which is then added to the `query_plan` parameter, whereas `write` returs a `SinkToStoragePtr`, which points to a `SinkToStorage`.  Many storages extend `SinkToStorage` to implement their own sink to handle writing data.
+
+We will soon explain what is a sink.
+
+One of the interesting things about ClickHouse is that it supports many kinds of storage engine.  Merge tree family is the most common ones, but also `StorageMemory`, `StorageFile`, `StorageMySQL`, `StoragePostgreSQL`, `StorageSQLite`, `StorageDistributed`, etc.  This probably shows that ClickHouse has a lot of optimizations that are not affected by underlying storage engine implementation.
+
+Let's take 'StorageMemory' as an example to see how they work together.
+
+<!-- code -->
+
+Just as we have seen, the main job of `StorageMemory::read` is to produce a `Pipe`.  This `Pipe` is composed of `num_streams` of `MemorySource`.  This is a hint that memory storage can read data in parallel (but TBH I'm not entirely sure.)  But let's focus on the `MemorySource` here.  We've mentioned that `IStorage::write` returns a point to an `SinkToStorage`.  The one returned from `StorageMemory::write` is `MemorySink`.  `MemorySource` and `MemorySink` are the places where data read and write actually happens.  Many of the storages of ClickHouse implements their own source and sink, such as `MergeTreeSequentialSource` and `MergeTreeSink`, `MemorySource` and `MemorySink`, `KafkaSource` and `KafkaSink`, etc.  And the main methods in the case of memory storage are `MemorySource::generate` and `MemorySink::consume`:
+
+<!-- code -->
+
+Bascially, `MemorySource::generate` creates a `Block` out of the indexed data, get a `Columns` out of it, and store that in the `Chunk` to be returned.  `MemorySink::consume` stores the `Chunk` input in `new_blocks`, and in `MemorySink::onFinish`, acquires a lock and writes data to `storage`.
+
+So we have a basic idea that `Chunk` is the unit of data processing in ClickHouse.  We also see the pairs of sources and sinks.  These are the basic components when we start to look further.
+
+## Processors
+
+<!-- code -->
+
+An `IProcessor` has input and output ports.  It can read from source, write to sink, and as you might have expect, transform the data with `work()`.  Sources, tranforms, and sinks is a common pattern in data flow or stream processing systems.
+
+An `InputPort` is `connect` to an `OutputPort`.  A connected pair of ports act like a shared lock over the shared `Port::State` between the ports.
+
+<!-- code -->
+
+Let's quickly look at `Chunk` and `Block`.
+
+So you know sources and sinks are probably some tables.  Let's look at some transforms now.  The simplest transform is `ISimpleTransform`.  They have one input, one output.
+
+<!-- code -->
+
+Since we are working with `Chunk` here, with `ISimpleTransform::prepare` you can actually do a lot more.  For example, `ExtremesTransform` adds a new port to store the extremes upon creation, and use `ExtremesTransform::prepare` to push the extremes to the new port.
+
+## QueryPipeline
+
+All of these needs to be tied together, in a `QueryPipeline` in ClickHouse.  Recall the `IStorage::read` version where a `Pipe` to source is added to `query_plan` with `QueryPlan::addStep`.  The step being added is a `ReadFromStorageStep`, which is a `IQueryPlanStep`.  There are many of these steps in `src/Processors/QueryPlan`.  These steps are added to the `QueryPlan`, and `QueryPlan::buildQueryPipeline` will build a `QueryPipeline` using a `QueryPipelineBuilder`.
+
+<!-- code -->
+
+## Executors
+
+## Questions
+
+- How do aggregate functions work?
+- Why no relative subqueries?
+- Why is join query so slow?
