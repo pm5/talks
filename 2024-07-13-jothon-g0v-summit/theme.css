@@ -1,0 +1,45 @@
+@import url("style/base.css");
+@import url("style/components/index.css");
+
+:root {
+	--font-mono: Consolas, Monaco, 'Andale Mono', monospace;
+	--font-sans: 'Helvetica Neue', Helvetica, Segoe UI, sans-serif;
+}
+
+.slide {
+	color-scheme: dark;
+	--background-color-overlay: hsl(200 20% 50% / 30%);
+	background: radial-gradient(transparent, rgb(0 0 0 / .7)), linear-gradient(var(--background-color-overlay) 0 100%) canvas;
+
+	h2 {
+		color: var(--color-accent-2);
+		font-size: 120%;
+	}
+}
+
+/* Tables */
+.slide > table {
+	caption {
+		letter-spacing: -.05em;
+		color: var(--color-orange);
+	}
+
+	thead th {
+		background: var(--color-accent-1);
+	}
+
+	tbody tr > * {
+		border-top-color: hsla(0 0% 100% / 15%);
+	}
+
+	td:first-child {
+		font-weight: 300;
+	}
+}
+
+.slide figure {
+	figcaption {
+		margin-top: .5em;
+		text-align: center;
+	}
+}
